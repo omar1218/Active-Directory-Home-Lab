@@ -3,7 +3,7 @@
 This repository contains steps on how I set up a basic home lab running Active Directory following a tutorial by [Josh Madakor](https://www.youtube.com/@JoshMadakor)
 
 ## Diagram
-![Diagram](active_directory_diagram.jpg)
+![Diagram](https://i.imgur.com/dsFYYpW.jpeg)
 
 ## Download and install Oracle VirtualBox from the official website.
 [Oracle Virtual Box](https://www.virtualbox.org/)
