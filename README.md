@@ -14,7 +14,7 @@ This repository contains steps on how I set up a basic home lab running Active D
 
 ## Create a new virtual machine by clicking on "New" in VirtualBox, naming it "Domain Controller," and selecting the "Windows Server 2019" ISO file as the boot media.
 
-![](attachments/Pasted%20image%2020230402145533.png)
+![](https://i.imgur.com/btgyrgC.png)
 
 ![](attachments/Pasted%20image%2020230402145610.png)
 
