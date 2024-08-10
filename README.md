@@ -16,13 +16,14 @@ This repository contains steps on how I set up a basic home lab running Active D
 
 ![](https://i.imgur.com/btgyrgC.png)
 
-![](attachments/Pasted%20image%2020230402145610.png)
+You can create the VM with the minimum required memory but it's recommended to have at least 4 cores in the CPU
+![](https://i.imgur.com/sqM2G6G.png)
 
 ##  Configure the virtual machine by giving it two network adapters: one for connecting to the internet and the other for the private network.
 
-![](attachments/Pasted%20image%2020230402145806.png)
+![](https://i.imgur.com/Ei5af1k.png)
 
-![](attachments/Pasted%20image%2020230402145820.png)
+![](https://i.imgur.com/DxIPr3t.png)
 
 ##  Install Server 2019 on the virtual machine and assign IP addressing for the internal network.
 
