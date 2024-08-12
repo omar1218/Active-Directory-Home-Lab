@@ -27,9 +27,9 @@ You can create the VM with the minimum required memory but it's recommended to h
 
 ##  Install Server 2019 on the virtual machine and assign IP addressing for the internal network.
 
-![](attachments/Pasted%20image%2020230402150458.png)
+![](https://i.imgur.com/VuyP5G1.png)
 
-![](attachments/Pasted%20image%2020230402150538.png)
+![](https://i.imgur.com/wJI315f.png)
 ##  Name the server and install Active Directory to create the domain.
 ![](attachments/Pasted%20image%2020230402150727.png)
 
