@@ -10,7 +10,7 @@ This repository contains steps on how I set up a basic home lab running Active D
 
 ## Download the Windows 10 and Server 2022 ISO files.
 [Windows 10 iso](https://www.microsoft.com/en-us/software-download/windows10ISO)
-[Windows Server 2019](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
+[Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
 
 ## Create a new virtual machine by clicking on "New" in VirtualBox, naming it "Domain Controller," and selecting the "Windows Server 2019" ISO file as the boot media.
 
