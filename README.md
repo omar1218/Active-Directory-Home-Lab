@@ -14,20 +14,31 @@ This repository contains steps on how I set up a basic home lab running Active D
 
 ## Create a new virtual machine by clicking on "New" in VirtualBox, naming it "Domain Controller," and selecting the "Windows Server 2022" ISO file as the boot media.
 
-![](https://i.imgur.com/btgyrgC.png)
+![](https://i.imgur.com/enQpiPE.png)
 
 You can create the VM with the minimum required memory but it's recommended to have at least 4 cores in the CPU
-![](https://i.imgur.com/sqM2G6G.png)
+![](https://i.imgur.com/n5PVwGN.png)
+
+This is optional, it enables copying and pasting to/from the guest and host machine, makes the job easier
+![](https://i.imgur.com/s7BV5Np.png)
 
 ##  Configure the virtual machine by giving it two network adapters: one for connecting to the internet and the other for the private network.
 
-![](https://i.imgur.com/Ei5af1k.png)
+![](https://i.imgur.com/Lz80e2h.png)
 
-![](https://i.imgur.com/DxIPr3t.png)
+![](https://i.imgur.com/5AlNj1d.png)
 
-##  Install Server 2022 on the virtual machine and assign IP addressing for the internal network.
+##  Install Server 2022 on the virtual machine 
+![](https://i.imgur.com/MdWjA1X.png)
 
-![](https://i.imgur.com/VuyP5G1.png)
+##  Install the guest additions
+![](https://i.imgur.com/kwbCOfQ.png)
+
+##  Figure out which NIC is connected to the internet and which one is internal 
+![](https://i.imgur.com/8tMRKds.png)
+
+##  Assign IP addressing for the internal network.
+![](https://i.imgur.com/IHcThZh.png)
 
 ![](https://i.imgur.com/wJI315f.png)
 ##  Name the server and install Active Directory to create the domain.
