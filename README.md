@@ -1,6 +1,6 @@
 # Basic Home Lab Running Active Directory
 
-This repository contains steps on how I set up a basic home lab running Active Directory following a tutorial by [Josh Madakor](https://www.youtube.com/@JoshMadakor)
+This repository contains steps on how I set up a basic home lab running Active Directory following a tutorial by [Josh Madakor](https://www.youtube.com/@JoshMadakor) and making a few changes of my own (including learning about the use of gpo and distributing a suite of software and/or different kinds of access to users according to positions/roles) and yes, Windows Server 2022 instead of 2019
 
 ## Diagram
 ![Diagram](https://i.imgur.com/dsFYYpW.jpeg)
@@ -8,9 +8,9 @@ This repository contains steps on how I set up a basic home lab running Active D
 ## Download and install Oracle VirtualBox from the official website.
 [Oracle Virtual Box](https://www.virtualbox.org/)
 
-## Download the Windows 10 and Server 2019 ISO files.
+## Download the Windows 10 and Server 2022 ISO files.
 [Windows 10 iso](https://www.microsoft.com/en-us/software-download/windows10ISO)
-[Windows Server 2019](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019)
+[Windows Server 2019](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
 
 ## Create a new virtual machine by clicking on "New" in VirtualBox, naming it "Domain Controller," and selecting the "Windows Server 2019" ISO file as the boot media.
 
