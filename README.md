@@ -1,6 +1,6 @@
 # Basic Home Lab Running Active Directory
 
-This repository contains steps on how I set up a basic home lab running Active Directory following a tutorial by [Josh Madakor](https://www.youtube.com/@JoshMadakor) and making a few changes of my own (including learning about the use of gpo and distributing a suite of software and/or different kinds of access to users according to positions/roles) and yes, Windows Server 2022 instead of 2019
+This repository contains steps on how I set up a basic home lab running Active Directory following a tutorial by [Josh Madakor](https://www.youtube.com/@JoshMadakor) and making a few changes of my own (including learning about the use of GPO and possibly Microsoft Intune and distributing a suite of software and/or different kinds of access to users according to positions/roles) and yes, Windows Server 2022 instead of 2019
 
 ## Diagram
 ![Diagram](https://i.imgur.com/dsFYYpW.jpeg)
@@ -12,7 +12,7 @@ This repository contains steps on how I set up a basic home lab running Active D
 [Windows 10 iso](https://www.microsoft.com/en-us/software-download/windows10ISO)
 [Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
 
-## Create a new virtual machine by clicking on "New" in VirtualBox, naming it "Domain Controller," and selecting the "Windows Server 2019" ISO file as the boot media.
+## Create a new virtual machine by clicking on "New" in VirtualBox, naming it "Domain Controller," and selecting the "Windows Server 2022" ISO file as the boot media.
 
 ![](https://i.imgur.com/btgyrgC.png)
 
@@ -25,7 +25,7 @@ You can create the VM with the minimum required memory but it's recommended to h
 
 ![](https://i.imgur.com/DxIPr3t.png)
 
-##  Install Server 2019 on the virtual machine and assign IP addressing for the internal network.
+##  Install Server 2022 on the virtual machine and assign IP addressing for the internal network.
 
 ![](https://i.imgur.com/VuyP5G1.png)
 
