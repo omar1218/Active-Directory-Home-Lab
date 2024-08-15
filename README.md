@@ -37,34 +37,51 @@ This is optional, it enables copying and pasting to/from the guest and host mach
 ##  Figure out which NIC is connected to the internet and which one is internal 
 ![](https://i.imgur.com/8tMRKds.png)
 
+##  Name the NIC drives to make differentiating between them easier.
+![](https://i.imgur.com/AQdeJWZ.png)
+
 ##  Assign IP addressing for the internal network.
-![](https://i.imgur.com/IHcThZh.png)
-
 ![](https://i.imgur.com/wJI315f.png)
-##  Name the server and install Active Directory to create the domain.
-![](attachments/Pasted%20image%2020230402150727.png)
 
-![](attachments/Pasted%20image%2020230402153253.png)
+
+##  Install Active Directory Domain Services.
+
+![](https://i.imgur.com/DNsPDE3.png)
+
+![]([img]https://i.imgur.com/gVaHzh8.png[/img])
+
+![]([img]https://i.imgur.com/rwFmtqg.png[/img])
+
 
 ##  Configure routing so that clients on the private network can access the internet through the domain controller.
 
-![](attachments/Pasted%20image%2020230402153829.png)
+![](https://i.imgur.com/lgHv9KE.png)
 
-![](attachments/Pasted%20image%2020230402153904.png)
+![](https://i.imgur.com/6fkxOc5.png)
 
-![](attachments/Pasted%20image%2020230402154123.png)
+![](https://i.imgur.com/zydGRHC.png)
+
+Make sure you select the external NIC card in this step
+![](https://i.imgur.com/OEecOKV.png)
+
 
 ##  Set up DHCP on the domain controller.
-![](attachments/Pasted%20image%2020230402154312.png)
+![](https://i.imgur.com/nhkUJHV.png)
 
-![](attachments/Pasted%20image%2020230402154041.png)
+![](https://i.imgur.com/1DoT360.png)
 
-![](attachments/Pasted%20image%2020230402154439.png)
+![](https://i.imgur.com/azR5xwB.png)
 
+![](https://i.imgur.com/iPYH4Bo.png)
+
+![](https://i.imgur.com/dXjjd7g.png)
+
+![](https://i.imgur.com/yL01xDh.png)
 
 ##  Run the PowerShell script to create 1000 users in Active Directory.
 
 [Power Shell script for creating users](https://github.com/joshmadakor1/AD_PS)
+![](https://i.imgur.com/g5v8Zux.png)
 
 ##  Create a new virtual machine named "Client1" and install Windows 10 on it.
 
